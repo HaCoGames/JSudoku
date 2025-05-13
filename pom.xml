@@ -27,4 +27,11 @@
         </dependency>
     </dependencies>
 
+    <distributionManagement>
+        <repository>
+            <id>github</id> <!-- must match <id> in settings.xml -->
+            <url>https://maven.pkg.github.com/HaCoGames/JSudoku</url>
+        </repository>
+    </distributionManagement>
+
 </project>
